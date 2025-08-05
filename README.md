@@ -4,15 +4,6 @@
   <img src="https://raw.githubusercontent.com/BeaconCMS/beacon/main/assets/images/beacon.png" width="256" alt="Beacon logo">
 </p>
 
-<div align="center">
-  
-  [![GitHub Release Version](https://img.shields.io/github/v/release/beaconCMS/beacon?color=blue)](https://hex.pm/packages/beacon)
-  [![GitHub Release Date](https://img.shields.io/github/release-date/beaconCMS/beacon)](https://github.com/BeaconCMS/beacon/releases)
-  [![GitHub License](https://img.shields.io/github/license/beaconCMS/beacon?color=orange)](https://github.com/BeaconCMS/beacon/blob/main/LICENSE.md)
-  [![Documentation](https://img.shields.io/badge/documentation-555555)](https://hexdocs.pm/beacon)
-  
-</div>
-
 <p align="center">
   Beacon is a content management system (CMS) built with Phoenix LiveView. It brings the rendering speed benefits of Phoenix to even the most content-heavy pages with faster render times to boost SEO performance.
 </p>
@@ -95,16 +86,6 @@ Main components:
 - Admin - LiveView UI to manage layouts, pages, and all other resources. See https://github.com/BeaconCMS/beacon_live_admin
 - Page Builder - An easy to use, drag & drop UI for building pages, targeted to non-technical users. In the initial stages of development.
 
-## Contributing
-
-Check out the [CONTRIBUTING.md](https://github.com/BeaconCMS/beacon/blob/main/CONTRIBUTING.md) doc for overall guidelines to contribute to this project,
-then follow the [Local Development](https://github.com/BeaconCMS/beacon#local-development) steps to run a local project or watch the video below to understand more
-about Beacon internals:
-
-<a href="https://www.youtube.com/watch?v=5jk0fIJOFuc">
-  <img src="https://raw.githubusercontent.com/BeaconCMS/beacon/main/assets/images/youtube_card.png" width="512" alt="YouTube card - ElixirConf 2023 - Leandro Pereira - Beacon: The next generation of CMS in Phoenix LiveView">
-</a>
-
 ## Local Development
 
 The file `dev.exs` is a self-contained Phoenix application running Beacon with sample data and code reloading enabled. Follow these steps to get a site up and running:
@@ -124,12 +105,3 @@ iex --sname core@localhost -S mix dev
 Note that running a named node isn't required unless you're running Beacon LiveAdmin for local development as well.
 
 Finally, visit any of the routes defined in `dev.exs`, eg: http://localhost:4001/dev or http://localhost:4001/dev/sample
-
-## Looking for help with your Elixir project?
-
-<img src="assets/images/dockyard.png" width="256" alt="DockYard logo">
-
-At DockYard we are [ready to help you build your next Elixir project](https://dockyard.com/phoenix-consulting).
-We have a unique expertise in Elixir and Phoenix development that is unmatched and we love to [write about Elixir](https://dockyard.com/blog/categories/elixir).
-
-Have a project in mind? [Get in touch](https://dockyard.com/contact/hire-us)!
